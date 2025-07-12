@@ -41,7 +41,7 @@ Dokumentasi endpoint lengkap tersedia di Postman:
 
 ```bash
 # 1. Clone project
-git clone https://github.com/kangkoding/techtest-higo-awalifgis.git
+git clone https://github.com/kangkoding/higoawalifgis-backend.git
 
 # 2. Backend
 cd backend
