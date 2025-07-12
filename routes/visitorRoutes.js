@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
 
     const query = search
       ? {
-          name: { $regex: search, $options: "i" }, // cari berdasarkan nama (case-insensitive)
+          name: { $regex: search, $options: "i" },
         }
       : {};
 

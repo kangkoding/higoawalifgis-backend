@@ -15,4 +15,4 @@ const VisitorSchema = new mongoose.Schema({
   locationType: String,
 });
 
-module.exports = mongoose.model("Visitor", VisitorSchema);
+module.exports = mongoose.model("Visitor", VisitorSchema, "dataset");
